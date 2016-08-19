@@ -10,7 +10,7 @@ public class EncryptValidators {
 	EncryptMethods eM = new EncryptMethods();
 	
 	String userInput = null;
-	boolean continueProgram = true;
+	boolean continueProgram = false;
 	
 		System.out.println("Please enter 'encrypt' or 'decrypt' to continue. Enter 'exit' to close the program. \n");
 		userInput = scan.nextLine();
@@ -27,9 +27,11 @@ public class EncryptValidators {
 			
 			case "exit":
 			knockOff(userInput);
+			break;
 			
 			default:
 			System.out.println("Please enter 'encrypt' or 'decrypt' to continue. Enter 'exit' to close the program. \n");
+			userInput = scan.nextLine();
 			break;
 			
 			}

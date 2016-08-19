@@ -49,8 +49,8 @@ public class EncryptMethods {
 		
 		String userInput = null;
 		int arrayLength = 0;
-		char[] alphaArray = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
-		char[] cipherArray = { 'r', 's', 't', 'l', 'n', 'e', 'q', 'y', 'w', 'u', 'i', 'o', 'p', 'z', 'x', 'c', 'v', 'b', 'm', 'a', 'd', 'f', 'g', 'h', 'j', 'k' };
+		char[] alphaArray = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ' };
+		char[] cipherArray = { 'r', 's', 't', 'l', 'n', 'e', 'q', 'y', 'w', 'u', 'i', 'o', 'p', 'z', 'x', 'c', 'v', 'b', 'm', 'a', 'd', 'f', 'g', 'h', 'j', 'k', ' ' };
 		ArrayList<Character> messageToDecode = new ArrayList<>();
 		ArrayList<Character> decryption = new ArrayList<>();
 		

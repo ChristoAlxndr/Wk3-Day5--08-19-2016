@@ -22,7 +22,8 @@ public class Encryption {
 
 			if (userInput.equalsIgnoreCase("ssacto")) {
 				userName = false;
-				System.out.println("Username accepted \n\n Please enter password \n");
+				System.out.println("Username accepted \n\n"
+						+ "Please enter password \n");
 			} else {
 				System.out.println("Invalid Username. Please try again. \n");
 			}
